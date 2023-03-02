@@ -10,6 +10,7 @@ form {
   box-sizing: border-box;
 }
 
+
 #customers {
   margin-left: auto;
   margin-right: auto;
@@ -21,6 +22,7 @@ form {
 #customers td,
 #customers th {
   padding: 8px;
+  text-align: left;
 }
 
 #customers tr:nth-child(even) {

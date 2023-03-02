@@ -1,10 +1,10 @@
-import { useState,useMemo, useEffect } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import users from './User_data_json/users.json';
 import Pagination from './Pagination';
 import { useSearchParams } from 'react-router-dom';
 
 
-let PageSize = 6;
+let PageSize = 5;
 
 function Employee() {
   const [userData, setUser] = useState(users || []);
@@ -62,23 +62,23 @@ function Employee() {
   }
 
   useEffect(() => {
-    setSearchParams({'page': currentPage})
+    setSearchParams({ 'page': currentPage })
   }, [currentPage])
 
   return (
     <div className="App">
-      <form className="search-box">
-        <input type="text" className='icon-rtl' onChange={(e) => searchItems(e.target.value)} placeholder="Search.." name="search2" />
-      </form>
+        <form className="search-box">
+          <input type="text" className='icon-rtl' onChange={(e) => searchItems(e.target.value)} placeholder="Search.." name="search2" />
+        </form>
 
-      <div class="mybox">
-        <span class="myarrow"></span>
-        <select value={selectFilterType} onChange={handleChange}>
-          {options.map((option) => (
-            <option value={option.value}>{option.label}</option>
-          ))}
-        </select>
-      </div>
+        <div class="mybox">
+          <span class="myarrow"></span>
+          <select value={selectFilterType} onChange={handleChange}>
+            {options.map((option) => (
+              <option value={option.value}>{option.label}</option>
+            ))}
+          </select>
+        </div>
 
       <table id="customers">
         <tr>
@@ -114,7 +114,7 @@ function Employee() {
         pageSize={PageSize}
         onPageChange={page => setCurrentPage(page)}
       />
-      
+
     </div>
   );
 }
