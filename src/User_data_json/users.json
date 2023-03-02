@@ -1,0 +1,57 @@
+[
+    {
+        "name": "airi satou",
+        "position": "accountant",
+        "office": "tokyo"
+    },
+    {
+        "name": "angelica raco",
+        "position": "cheif executive officer(ceo)",
+        "office": "london"
+    },
+    {
+        "name": "ashton jordan",
+        "position": "juinor technical author",
+        "office": "san francisco"
+    },
+    {
+        "name": "bradely greer",
+        "position": "software engineer",
+        "office": "london"
+    },
+    {
+        "name": "brenden wagner",
+        "position": "software engineer",
+        "office": "san francisco"
+    },
+    {
+        "name": "brielle williamson",
+        "position": "integration specialist",
+        "office": "new york"
+    },
+    {
+        "name": "bruno nash",
+        "position": "pre-sales support",
+        "office": "new york"
+    },
+    {
+        "name": "cara stevens",
+        "position": "sales assistant",
+        "office": "new york"
+    },
+    {
+        "name": "cedic kelly",
+        "position": "senior javscript developer",
+        "office": "edinburgh"
+    },
+    {
+        "name": "charde marshall",
+        "position": "regional director",
+        "office": "san francisco"
+    },
+    {
+        "name": "france joseph",
+        "position": "regional director",
+        "office": "san francisco"
+    }
+]
